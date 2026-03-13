@@ -12,3 +12,19 @@
 
 ## 0.1.0 — 2026-03-13
 - Initial boundary semantics note.
+
+
++## Cosmology / Time Model — M/m + Global Replay
++
++**Core chapter (start here):**
++- [axioms_rules_chapter_minor_major_replay_v1.md](axioms_rules_chapter_minor_major_replay_v1.md)
++  - Integrates Axioms A1–A4, R3 + P1, Commit Frontier, and the replay-based argument for undetectability of M.
++
++**Supporting notes:**
++- [commit_frontier_formal_note_v1.md](commit_frontier_formal_note_v1.md)
++  - Formal definition of the Commit Frontier (k), commit operation, invariants, and termination (“no new changes of t”).
++- [undetectability_of_M_via_replay_logic_v1.md](undetectability_of_M_via_replay_logic_v1.md)
++  - Connects “m cannot detect M” directly to global replay semantics and record immutability.
++
++**Change log:**
++- [PATCH_NOTES.md](PATCH_NOTES.md)
