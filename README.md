@@ -1,49 +1,104 @@
-# Boundary Semantics for Cosmological ‘Breakdowns’ (t vs T framing)
+# Boundary Semantics, Record-Preserving Time (t/T), and 3D Space Model (v0.3)
 
-**Purpose.** This note summarizes a conceptual link between (a) “division-by-zero style” boundary handling in formal systems and (b) how modern cosmology treats model breakdowns (e.g., Big Bang singular behavior) as *domain-of-applicability* limits rather than literal illegal arithmetic. citeturn1search3turn1search10
+> **Status:** exploratory / theory-first.
+> **Scope:** no numeric modification to General Relativity (GR) yet; focus on conceptual consistency.
 
-## 1) Beginning: what ‘Big Bang’ means (operationally)
+This repo explores a **record-preserving** interpretation of cosmological boundaries:
+- Many cosmological “breakdowns” (e.g., singular limits) are treated as **domain/meaning boundaries** of the descriptive language, not literal illegal arithmetic. citeturn1search3turn1search10
+- The primary axis is **information preservation** (records), not observer traversal.
+- We introduce a **t/T split** where rewinding *t* can recover information **if** the record structure *T* is real and immutable.
+- We separate **space** (a 3D coordinate arena for patterns) from **dark energy** (an operationally-defined driver of late-time accelerated expansion). citeturn1search12turn1search10
 
-- The most defensible statement is that the **observable universe has been evolving for ~13.8 billion years**, tightly constrained by CMB observations (e.g., Planck 2018 parameters within ΛCDM). citeturn1search1turn1search3
-- In standard treatments, the ‘Big Bang’ refers to an **early hot, dense phase** and subsequent expansion/cooling, not a conventional explosion at a point in pre-existing space. citeturn1search5turn1search12
-- When classical General Relativity is extrapolated backward, one encounters **singular behavior**; the mainstream interpretation is that this flags **the breakdown of the smooth-spacetime description** at extreme conditions, not that nature evaluates a literal “divide by zero.” citeturn1search3turn1search10
+---
 
-## 2) End: plausible fates if there is a beginning
+## 0) Commitments and non-claims
 
-- If dark energy behaves like a **cosmological constant (Λ)** as in ΛCDM, the conservative extrapolation is continued acceleration and an asymptotic **‘heat death / big freeze’** style future (dilution of structure over very long times). citeturn1search10turn1search12
-- If dark energy **evolves with time**, alternative futures become more plausible in principle (e.g., faster acceleration ‘big rip’–type behavior or weakening acceleration allowing slowdown/recollapse scenarios); current survey results remain an active area of constraint-testing. citeturn1search9turn1search8turn1search7turn1search11
+### Commitments (anchors)
+1. **Age of observable universe:** ~13.8 billion years (Planck 2018 constraints within ΛCDM). citeturn1search1turn1search3
+2. **Accelerated expansion (baseline):** late-time expansion is consistent with acceleration; “dark energy” is defined operationally as the driver of this effect. citeturn1search12turn1search10
+3. **Boundary reading of singular behavior:** singular limits indicate extrapolation beyond smooth-spacetime model validity; treat as a boundary of meaning, not arithmetic failure. citeturn1search3turn1search10
 
-## 3) Dark energy: how it is defined today
+### Non-claims (for now)
+- No numeric GR fix yet (planned later).
+- No claim that cosmology literally performs division-by-zero.
 
-- Dark energy is defined **operationally** as the component/phenomenon responsible for the **observed late-time accelerated expansion**; the mechanism is not yet known. citeturn1search12turn1search10
-- In the ΛCDM framework, dark energy is modeled as a **cosmological constant (Λ)** and constitutes roughly **~68–70%** of the present-day cosmic energy budget (model-dependent but robust within ΛCDM fits such as Planck 2018). citeturn1search1turn1search3turn1search12
-- Recent large supernova analyses (e.g., DES) are **consistent with accelerated expansion** and place strong constraints, while still leaving room (within uncertainties) to test more complex time-evolution than a strict constant. citeturn1search9turn1search8
+---
 
-## 4) The key conceptual move: ‘division by zero’ as a domain boundary, not arithmetic
+## 1) Core definitions (t / T)
 
-- Many cosmological “breakdowns” are best framed as **domain violations**: pushing a smooth, continuous spacetime model beyond where it can meaningfully represent physics (especially at extreme early-universe regimes). citeturn1search3turn1search10
-- In that sense, singularities function like **boundary markers** (a signal to stop extrapolating or switch theories), rather than results of illegal arithmetic. citeturn1search3turn1search10
+### t: directed traversal time
+- **t** is the directed *traversal index* through records (think “playhead” through a video).
 
-## 5) t vs T: the ‘library’ model of time
+### T: total record structure
+- **T** is the *total record/library* containing information-bearing states (frames/pages/records).
+- **Key axiom (record preservation):** **T is immutable** unless explicitly corrupted/erased by a separate rule.
 
-- **t (directed time):** the experienced step-by-step traversal (like reading a book frame-by-frame).
-- **T (total record):** the full collection of informational artifacts (all pages/frames exist as a set).
+### Rewind principle
+- If **T exists and is immutable**, then reversing traversal (**rewind of t**) can recover earlier relational information.
+- Therefore, claims that “global relational information becomes non-reconstructible” are **false in the record-preserving ontology**.
 
-**Interpretation.** Time reversal can be thought of as reversing traversal in *t*, while the structure of *T* (the library) may remain intact; strong time reversal would require both traversal and record-structure to reverse, which is generally not what is observed macroscopically. (This section is a conceptual analogy, not a claim of established physics.)
+We distinguish two ontologies:
+- **Ontology RP (Record-Preserving):** T is real/immutable → rewind can recover.
+- **Ontology NR (No global Record):** only present state + local records → some relations become unrecoverable from the present.
 
-## 6) ‘First valid update’: a non-smooth-spacetime-friendly beginning
+This repo primarily develops **Ontology RP**.
 
-- If one relaxes the **smooth spacetime** assumption, the “beginning” can be reframed as the **earliest state where the descriptive language remains valid**—a ‘first valid update’ rather than a literal singular point. This aligns with why singular behavior is treated as a sign of model incompleteness. citeturn1search3turn1search10
+---
+
+## 2) Space model (S): 3D coordinate arena
+
+You proposed: “space as a 3D plane with axes x,y,z and Big Bang as its center.”
+
+We adopt a careful version compatible with standard cosmology language:
+
+- **Space-model S:** represent space as a **3D coordinate chart** with axes **x, y, z** and an **origin O**.
+- **Interpretation:** O is a *chosen reference* used to describe 3D patterns and symmetries.
+
+Important note (mainstream cosmology context): the Big Bang is not usually treated as a unique point *in space* (no preferred spatial center in the standard expanding-universe picture). citeturn1search5turn1search10
+
+So, in this repo:
+- We may **label** O as “Big Bang center” as a *coordinate convention*,
+- without asserting the universe has a physically privileged center.
+
+---
+
+## 3) Dark energy: separated from space, re-adjusted role
+
+### Operational definition (mainstream)
+Dark energy is defined by its observed role in **accelerated expansion**; mechanism unknown. citeturn1search12turn1search10
+
+### Repo stance
+We treat dark energy as a **background driver of expansion dynamics**, distinct from the 3D coordinate arena used to describe spatial patterns.
+
+We do *not* equate dark energy with space.
+
+---
+
+## 4) Information preservation: what is ‘lost’ vs ‘undefined’ vs ‘recoverable’
+
+Under **Ontology RP**:
+- **Recoverable:** any information encoded in T can be recovered by rewinding t.
+- **Lost:** only if T is corrupted/erased by an explicit rule (not by expansion alone).
+- **Undefined:** queries that violate the language’s domain (category errors), e.g., asking for a global relation that the language cannot express without extra structure.
+
+This keeps “end of the universe” discussions focused on:
+- whether T remains stable,
+- whether new records stop being written,
+- and which queries remain meaningful.
+
+---
+
+## 5) Open questions / next theoretical pushes
+
+1. **Define the record substrate:** what physical/structural object in 3D encodes T (patterns, fields, graphs)?
+2. **Rewind semantics:** is rewind purely an index operation (read-only), or can it be made physical (state reversal)?
+3. **End-state definition:** define “ending” as **no new t updates** vs “record inaccessible” vs “record corruption.”
+4. **Later:** propose a minimal numeric GR adjustment consistent with the semantics.
 
 ---
 
 ## Sources (links)
-
-- NASA APOD summary mentioning Planck 2018 age and H0: https://apod.nasa.gov/apod/ap180722.html citeturn1search1
 - Planck 2018 cosmological parameters (arXiv): https://arxiv.org/abs/1807.06209 citeturn1search3
-- NASA Science: Dark Energy overview: https://science.nasa.gov/dark-energy/ citeturn1search12
-- Fermilab DES supernova results press release: https://news.fnal.gov/2024/01/final-supernova-results-from-dark-energy-survey-offer-unique-insights-into-the-expansion-of-the-universe/ citeturn1search9
-- UCL news on DES constraints: https://www.ucl.ac.uk/news/2024/jan/new-research-improves-understanding-expansion-universe citeturn1search8
-- Wikipedia overview of accelerating expansion (background, discovery, ΛCDM framing): https://en.wikipedia.org/wiki/Accelerating_expansion_of_the_universe citeturn1search10
-- Discussion of potential slowdown (news coverage): https://www.theguardian.com/science/2025/nov/06/universe-expansion-slowing-not-accelerating-nobel-prize citeturn1search7
-- Smithsonian summary of the same debate (news coverage): https://www.smithsonianmag.com/smart-news/the-universes-expansion-may-be-slowing-down-not-speeding-up-new-research-suggests-180987660/ citeturn1search11
+- NASA Dark Energy overview: https://science.nasa.gov/dark-energy/ citeturn1search12
+- ESA Planck / CMB explainer (Big Bang context): https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_and_the_cosmic_microwave_background citeturn1search5
+- Wikipedia overview of accelerating expansion (ΛCDM framing): https://en.wikipedia.org/wiki/Accelerating_expansion_of_the_universe citeturn1search10
